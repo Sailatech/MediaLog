@@ -60,13 +60,13 @@ main {
 }
 
 #search-button {
-    padding: 0.5rem 0.5rem;
+    padding: 5%;
     background-color: #e50914;
     border: none;
     color: aliceblue;
     cursor: pointer;
     border-radius: 30px;
-    width: 20%;
+    font-size: larger;
 }
 
 #movies {

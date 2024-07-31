@@ -20,8 +20,8 @@ document.getElementById('search-button').addEventListener('click', function() {
                 movieElement.innerHTML = `
                     <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" alt="${movie.title}">
                     <p>${movie.title}</p>
-                    <a href="https://www.youtube.com/results?search_query=${movie.title} trailer" target="_blank" class="download-btn">Watch Trailer</a>
-                    <a href="https://www.youtube.com/results?search_query=${movie.title} full movie" target="_blank" class="download-btn">Watch Full Movie</a>
+                    <a href="https://www.youtube.com/results?search_query=${movie.title} trailer" target="_blank" class="download-btn">Trailer</a>
+                    <a href="https://www.youtube.com/results?search_query=${movie.title} full movie" target="_blank" class="download-btn">Full Movie</a>
                 `;
                 movieGrid.appendChild(movieElement);
             });
@@ -59,8 +59,8 @@ function fetchPopularMovies() {
                 movieElement.innerHTML = `
                     <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" alt="${movie.title}">
                     <p>${movie.title}</p>
-                    <a href="https://www.youtube.com/results?search_query=${movie.title} trailer" target="_blank" class="download-btn">Watch Trailer</a>
-                    <a href="https://www.youtube.com/results?search_query=${movie.title} full movie" target="_blank" class="download-btn">Watch Full Movie</a>
+                    <a href="https://www.youtube.com/results?search_query=${movie.title} trailer" target="_blank" class="download-btn">Trailer</a>
+                    <a href="https://www.youtube.com/results?search_query=${movie.title} full movie" target="_blank" class="download-btn">Full Movie</a>
                 `;
                 movieGrid.appendChild(movieElement);
             });
@@ -80,8 +80,8 @@ function fetchPopularTVShows() {
                 showElement.innerHTML = `
                     <img src="https://image.tmdb.org/t/p/w500${show.poster_path}" alt="${show.name}">
                     <p>${show.name}</p>
-                    <a href="https://www.youtube.com/results?search_query=${show.name} trailer" target="_blank" class="download-btn">Watch Trailer</a>
-                    <a href="https://www.youtube.com/results?search_query=${show.name} full episode" target="_blank" class="download-btn">Watch Full Episode</a>
+                    <a href="https://www.youtube.com/results?search_query=${show.name} trailer" target="_blank" class="download-btn">Trailer</a>
+                    <a href="https://www.youtube.com/results?search_query=${show.name} full episode" target="_blank" class="download-btn">Full Episode</a>
                 `;
                 tvShowGrid.appendChild(showElement);
             });
@@ -101,8 +101,8 @@ function fetchNewPopular() {
                 itemElement.innerHTML = `
                     <img src="https://image.tmdb.org/t/p/w500${item.poster_path}" alt="${item.title || item.name}">
                     <p>${item.title || item.name}</p>
-                    <a href="https://www.youtube.com/results?search_query=${item.title || item.name} trailer" target="_blank" class="download-btn">Watch Trailer</a>
-                    <a href="https://www.youtube.com/results?search_query=${item.title || item.name} full movie" target="_blank" class="download-btn">Watch Full Movie</a>
+                    <a href="https://www.youtube.com/results?search_query=${item.title || item.name} trailer" target="_blank" class="download-btn">Trailer</a>
+                    <a href="https://www.youtube.com/results?search_query=${item.title || item.name} full movie" target="_blank" class="download-btn">Full Movie</a>
                 `;
                 newPopularGrid.appendChild(itemElement);
             });

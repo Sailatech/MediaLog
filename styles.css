@@ -102,7 +102,7 @@ main {
 
 .download-btn {
     margin-top: 0.5rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     background-color: #e50914;
     border: none;
     color: aliceblue;

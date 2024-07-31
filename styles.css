@@ -148,12 +148,11 @@ footer.light-mode {
     margin: 0;
 }
 
-
-.dropbtn {
+#dropbtn {
     background-color: #e50914;
     color: white;
     padding: 16px;
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bolder;
     border: none;
     cursor: pointer;

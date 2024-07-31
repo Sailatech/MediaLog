@@ -17,27 +17,27 @@
 <body class="dark-mode">
     <header>
         <div class="logo">
-            <img src="logo.png" alt="MediaLog" style=" width: 50px; height: 50px;">
+            <img src="logo.png" alt="MediaLog" style="width: 50px; height: 50px;">
         </div>
         <section id="search">
             <input type="text" id="search-bar" placeholder="Search for a movie...">
             <button id="search-button">Search</button>
         </section>
-        <button id="theme-toggle" style="background-color:#e50914; color: aliceblue; border-radius: 30px; height: 30px;">Theme</button>
-    </header>
-        
-    <div class="container">
-        <nav id="side-nav">
-            <ul>
-                <li><a href="#home"><i class="fas fa-home"></i></a></li>
-                <li><a href="#tv-shows"><i class="fas fa-tv"></i></a></li>
-                <li><a href="#movies"><i class="fas fa-film"></i></a></li>
-                <li><a href="#new-popular"><i class="fas fa-fire"></i></a></li>
-                <li><a href="#link"><i class="fas fa-external-link"></i></a></li>
-                <li><a href="#music"><i class="fas fa-music" aria-hidden="true"></i></a></li>
-                <li><a href="#football"><i class="fas fa-futbol"></i></a></li>
-            </ul>
+        <button id="theme-toggle" style="background-color: #e50914; color: aliceblue; border-radius: 30px; height: 30px;">Theme</button>
+        <!-- Hamburger menu icon for mobile -->
+         <div class="dropdown">
+            <div class="dropbtn" id="fas fa-bars">𓃑</div>
+        <nav class="dropdown-content">
+                <a href="#home"><i class="fas fa-home"></i></a>
+                <a href="#tv-shows"><i class="fas fa-tv"></i></a>
+                <a href="#movies"><i class="fas fa-film"></i></a>
+                <a href="#new-popular"><i class="fas fa-fire"></i></a>
+                <a href="#link"><i class="fas fa-external-link"></i></a>
+                <a href="#music"><i class="fas fa-music" aria-hidden="true"></i></a>
+                <a href="#football"><i class="fas fa-futbol"></i></a>
         </nav>
+        </div>
+    </header>
         <main id="home">
                 <button onclick="window.location.href='https://tousupiwaipa.net/4/7771909';">Click Here</button>
 
@@ -91,7 +91,7 @@
                      frameborder="0"> </iframe>
                 </div>
             </section>
-            <section id="music">
+            <section id="link">
                 <h2>Music</h2>
                 <div class="netnaija" id="title">
                     <!-- New & Popular content will be displayed here -->
@@ -100,7 +100,7 @@
                      frameborder="0"> </iframe>
                 </div>
             </section>
-            <section id="football">
+            <section id="link">
                 <h2>Live football</h2>
                 <div class="football" id="title">
                     <!-- New & Popular content will be displayed here -->
